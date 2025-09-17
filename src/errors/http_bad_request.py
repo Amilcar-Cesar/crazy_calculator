@@ -3,4 +3,4 @@ class HttpBadRequestError(Exception):
         super().__init__(message)
         self.message = message
         self.name = 'BadRequest'
-        self.status_code = 422
+        self.status_code = 400
